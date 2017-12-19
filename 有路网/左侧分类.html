@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>左侧分类</title>
+	<style type="text/css">
+		body, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img,form{
+    	margin: 0;
+    	padding: 0;
+    	list-style-type: none;
+    	border: 0;
+		}
+
+		a { color:#464646; text-decoration:none; outline: none;}
+		a:hover { color:#f60; text-decoration:underline; }
+		.index-sort {
+    		border: 1px solid #dcdcdc;
+    		border-top: 0;
+    		background-color: #fff;
+    		float: left;
+    		width: 208px;
+    		position: relative;
+    		z-index: 100;
+		}
+		.cat-menu li {
+    		border-bottom: 1px dotted #dcdcdc;
+    		padding: 0 10px 0 26px;
+    		position: relative;
+		}
+		.cat-menu li h2 {
+    		font-size: 14px;
+    		height: 30px;
+    		line-height: 30px;
+    		padding-left: 8px;
+		}
+		.cat-menu li h2 .title {
+    		display: block;
+    		float: left;
+		}
+		.caret {
+    		display: block;
+    		height: 10px;
+    		width: 6px;
+    		position: relative;
+    		float: right;
+    		margin-top: 5px;
+		}
+		
+		.caret_out, .caret_in {
+    		overflow: visible;
+    		width: 0;
+    		height: 0;
+    		
+    		font-size: 0;
+    		display: block;
+    		position: absolute;
+		}
+		
+		.cat-menu li .min-sort {
+    		line-height: 20px;
+    		line-height: 18px\9;
+    		padding-bottom: 10px;
+    		overflow: hidden;
+		}
+		.cat-menu li .min-sort a {
+    		color: #696969;
+    		display: block;
+    		margin: 0 3px;
+    		height: 20px;
+    		float: left;
+    		font-size: 12px;
+		}
+		.yl-all-index{
+			padding: 10px;
+			height: 20px;
+		}
+		.yl-all-index a {
+    		font-size: 14px;
+    		float: left;
+		}
+		.caret_out {
+    		border-style: dashed dashed dashed solid;
+    		left: 0;
+    		top: -1px;
+    		border-width: 5px 5px 5px 6px;
+    		border-color: transparent transparent transparent #6e6e6e;
+		}
+		.caret_in {
+    		border-style: dashed dashed dashed solid;
+    		left: -1px;
+    		top: 0;
+    		border-width: 4px 4px 4px 5px;
+    		border-color: transparent transparent transparent #fff;
+		}
+		.book-ad-first {
+   			width: 210px;
+    		height: 380px;
+    		line-height: 380px;
+    		background: #eaeaea;
+		}
+	</style>
+</head>
+<body>
+<div class="index-sort">
+            
+<ul class="cat-menu sort-menu-bd">
+	<li class="mainCate">
+		<h2>
+			<span class="title">经济管理</span>
+				<span class="caret"><b class="caret_out"></b><b class="caret_in"></b></span>
+		</h2>
+		<div class="min-sort">
+			<a href="" target="_blank">市场营销</a>
+			<a href="" target="_blank">经济学理论</a>
+			<a href="" target="_blank">国际贸易</a>
+			<a href="" target="_blank">物流管理</a>
+			<a href="" target="_blank">管理学原理</a>
+			<a href="" target="_blank">财务管理</a>
+		</div>
+	</li>
+	<li class="mainCate">
+		<h2>
+			<span class="title">文学艺术</span>
+				<span class="caret"><b class="caret_out"></b><b class="caret_in"></b></span>
+		</h2>
+		<div class="min-sort">
+			<a href="" target="_blank">设计</a>
+			<a href="" target="_blank">音乐</a>
+			<a href="" target="_blank">青春文学</a>
+			<a href="" target="_blank">绘画</a>
+			<a href="" target="_blank">人物传记</a>
+			<a href="" target="_blank">外国文学</a>
+		</div>
+	</li>
+	<li class="mainCate">
+		<h2>
+			<span class="title">人文社科</span>
+			<span class="caret"><b class="caret_out"></b><b class="caret_in"></b></span>
+		</h2>
+		<div class="min-sort">
+			<a href="" target="_blank">数学</a>
+			<a href="" target="_blank">英语教材</a>
+			<a href="" target="_blank">化学</a>
+			<a href="" target="_blank">日语</a>
+			<a href="" target="_blank">生物科学</a>
+			<a href="" target="_blank">专业英语</a>
+		</div>
+	</li>
+	<li class="mainCate">
+		<h2>
+			<span class="title">科学技术</span>
+			<span class="caret"><b class="caret_out"></b><b class="caret_in"></b></span>
+		</h2><div class="min-sort">
+			<a href="" target="_blank">语言与编程</a>
+			<a href="" target="_blank">电子通信</a>
+			<a href="" target="_blank">电工电子</a>
+			<a href="" target="_blank">数据库</a>
+			<a href="" target="_blank">建筑工程</a>
+			<a href="" target="_blank">土木工程</a>
+		</div>
+	</li>
+	<li class="mainCate">
+		<h2>
+			<span class="title">生活休闲</span>
+			<span class="caret"><b class="caret_out"></b><b class="caret_in"></b></span>
+		</h2>
+		<div class="min-sort">
+			<a href="" target="_blank">家庭保健</a>
+			<a href="" target="_blank">美食烹饪</a>
+			<a href="" target="_blank">导游必备</a>
+			<a href="" target="_blank">地理学理论</a>
+			<a href="" target="_blank">动漫卡通</a>
+			<a href="" target="_blank">球类</a>
+		</div>
+	</li>
+	<li class="mainCate">
+		<h2>
+			<span class="title">教育考试</span>
+			<span class="caret"><b class="caret_out"></b><b class="caret_in"></b></span>
+		</h2>
+		<div class="min-sort">
+			<a href="" target="_blank">教学理论</a>
+			<a href="" target="_blank">自考</a>
+			<a href="" target="_blank">研究生考试</a>
+			<a href="" target="_blank">考研英语</a>
+			<a href="" target="_blank">公务员考试</a>
+			<a href="" target="_blank">初高中用书</a>
+		</div>
+	</li>
+</ul>
+
+<h2 class="yl-all-index">
+    <a href="" target="_blank">浏览所有图书分类</a> <span class="caret">
+    <b class="caret_out"></b><b class="caret_in"></b></span>
+</h2>
+<div class="book-ad-con book-ad-first">
+    <a href="" target="_blank"><img src="../有路网图片/haoshu.jpg" alt="新书推荐" style="width: 210px; height: 364px;" ggcode="newHomepage_left_1"></a>
+</div>
+</div>
+</body>
+</html>
